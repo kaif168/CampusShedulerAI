@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F4F6F9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Back"
+                android:src="@android:drawable/ic_menu_revert" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/btnBack"
+                android:layout_marginStart="12dp"
+                android:text="Configure College Working Hours &amp; Breaks"
+                android:textColor="#1E1E2C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Tap any time field below to pick time via Clock selector:"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/etStartTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:focusable="false"
+            android:clickable="true"
+            android:hint="College Start Time (Tap for Clock)"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etEndTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:clickable="true"
+            android:hint="College End Time (Tap for Clock)"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etMorningTeaBreak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:clickable="true"
+            android:hint="Morning Tea Break (e.g. 11:00 AM - 11:15 AM)"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etLunchBreak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:clickable="true"
+            android:hint="Lunch Break (e.g. 01:15 PM - 02:00 PM)"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etAfternoonTeaBreak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:clickable="true"
+            android:hint="Afternoon Tea Break (e.g. 03:00 PM - 03:15 PM)"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/etPeriodDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Period Duration in Minutes (e.g. 50 or 60)"
+            android:inputType="number"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnSaveScheduleConfig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Save Schedule &amp; Break Slots to Firestore"
+            android:padding="14dp" />
+
+    </LinearLayout>
+
+</ScrollView>

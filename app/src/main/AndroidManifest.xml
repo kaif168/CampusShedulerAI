@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="CampusSchedulerAI"
+        android:roundIcon="@mipmap/app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CampusSchedulerAI">
+
+        <!-- ========================================================= -->
+        <!-- ENTRY POINTS                                               -->
+        <!-- ========================================================= -->
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.CampusSchedulerAI.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.OfficialLoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.CompleteProfileActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.MasterDataReconciliationActivity"
+            android:exported="true" />
+
+        <!-- ========================================================= -->
+        <!-- OFFICIAL OWNER MODULE                                      -->
+        <!-- ========================================================= -->
+
+        <activity
+            android:name=".activities.OfficialOwnerDashboardActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.CollegeManagementActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.PlatformUpdatesActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.OwnerAnalyticsActivity"
+            android:exported="false" />
+
+        <!-- Official Owner Access Management -->
+        <activity
+            android:name=".activities.OwnerAccessManagementActivity"
+            android:exported="false" />
+
+        <!-- System Governance -->
+        <activity
+            android:name=".activities.SystemGovernanceActivity"
+            android:exported="false" />
+
+        <!-- ========================================================= -->
+        <!-- COLLEGE ADMIN MODULE                                       -->
+        <!-- ========================================================= -->
+
+        <activity
+            android:name=".activities.AdminDashboardActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.DepartmentActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.FacultyActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentManagementActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.SubjectActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.SemesterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.SectionActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.ClassroomActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.LaboratoryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.CollegeScheduleActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.FacultyImportActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.ClassroomImportActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentImportActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.ClassAssignmentActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.TimetableGeneratorActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.TimetableManagementActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.ExamActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.IATimetableActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.NotificationManagementActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.AnalyticsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.ReportsActivity"
+            android:exported="false" />
+
+        <!-- ========================================================= -->
+        <!-- TEACHER / FACULTY MODULE                                   -->
+        <!-- ========================================================= -->
+
+        <activity
+            android:name=".activities.TeacherDashboardActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.TeacherTimetableActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.TeacherAttendanceActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.TeacherAssignmentActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.TeacherResourceActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.TeacherLeaveActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.TeacherCalendarActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.TeacherChatActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.TeacherClassDetectionActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.FacultyAvailabilityActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.TeacherSubstituteActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.FacultyWorkloadActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.ProfileChangeRequestActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.AdminAttendanceRegisterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.TeacherGradebookActivity"
+            android:exported="false" />
+
+        <!-- ========================================================= -->
+        <!-- STUDENT MODULE                                             -->
+        <!-- ========================================================= -->
+
+        <activity
+            android:name=".activities.StudentDashboardActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentClassroomActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.CourseActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.CourseWorkActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentResourceActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentAssignmentActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.QuizActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.DiscussionActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentTimetableActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentAttendanceActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentLeaveActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentExamActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentMessageActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.HelpCenterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.ReminderActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentChatActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentAcademicsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentClassDetectionActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.SubjectDetailsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.AboutActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.AdmissionTypeActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentNotificationActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.StudentSubjectsActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.campusscheduler.ai.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

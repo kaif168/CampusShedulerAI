@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F6F9">
+
+    <!-- Top Action Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:background="#0D47A1">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Back"
+            android:src="@android:drawable/ic_menu_revert"
+            app:tint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tvLeaveHeaderTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Faculty Leave Application"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Content Container -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <!-- TEACHER VIEW (Form + Submitted Requests) -->
+        <ScrollView
+            android:id="@+id/svTeacherContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Leave Application Card -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="3dp"
+                    app:cardBackgroundColor="#FFFFFF">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Submit New Leave Request"
+                            android:textColor="#0D47A1"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="Substitute faculty will be discovered and assigned by the administration upon approval."
+                            android:textColor="#546E7A"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="Leave Start Date *"
+                            android:textColor="#37474F"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etStartDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:hint="Select Start Date (YYYY-MM-DD)"
+                            android:focusable="false"
+                            android:clickable="true"
+                            android:padding="10dp"
+                            android:background="@android:drawable/editbox_background_normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Leave End Date *"
+                            android:textColor="#37474F"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etEndDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:hint="Select End Date (YYYY-MM-DD)"
+                            android:focusable="false"
+                            android:clickable="true"
+                            android:padding="10dp"
+                            android:background="@android:drawable/editbox_background_normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Reason for Leave *"
+                            android:textColor="#37474F"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etReason"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:hint="Enter reason (e.g. Medical Leave, Academic Duty)"
+                            android:lines="2"
+                            android:gravity="top|start"
+                            android:padding="10dp"
+                            android:background="@android:drawable/editbox_background_normal" />
+
+                        <Button
+                            android:id="@+id/btnApplyLeave"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:text="Submit Leave Request"
+                            android:textColor="#FFFFFF"
+                            android:backgroundTint="#0D47A1"
+                            android:padding="12dp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- History Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="My Leave Requests &amp; Substitution Status"
+                    android:textColor="#263238"
+                    android:textStyle="bold"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvTeacherEmptyLeave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No previous leave requests recorded."
+                    android:textColor="#78909C"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/llTeacherLeaveHistoryList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- ADMIN VIEW (Pending requests for approval) -->
+        <LinearLayout
+            android:id="@+id/llAdminApprovalContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pending Faculty Leave &amp; Automatic AI Substitution:"
+                android:textColor="#263238"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvAdminEmptyLeave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No pending leave requests found."
+                android:textColor="#78909C"
+                android:gravity="center"
+                android:padding="20dp"
+                android:visibility="gone" />
+
+            <ListView
+                android:id="@+id/lvPendingLeaveRequests"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#E0E0E0"
+                android:dividerHeight="1dp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,622 @@
+[
+  {
+    "USN": "1HK23CS067",
+    "Name": "LAXMIPUTRA WALI",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "7204173624",
+    "Email ID": "1hk23cs067@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS068",
+    "Name": "LIKHITHA C P",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "7899219345",
+    "Email ID": "1hk23cs068@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS069",
+    "Name": "MADAPURAM RAJENDRA KISHOR",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "8309052524",
+    "Email ID": "1hk23cs069@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS070",
+    "Name": "MANGALI RAJITHA",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9603761233",
+    "Email ID": "1hk23cs070@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS071",
+    "Name": "MANI V J",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "7892800936",
+    "Email ID": "1hk23cs071@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS072",
+    "Name": "MANIK",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "6361156965",
+    "Email ID": "1hk23cs072@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS073",
+    "Name": "MARESHA B",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "7892311269",
+    "Email ID": "1hk23cs073@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS074",
+    "Name": "MAZIAH FATHIMA",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9535756392",
+    "Email ID": "1hk23cs074@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS076",
+    "Name": "MD IRFAN",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9741369036",
+    "Email ID": "1hk23cs076@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS077",
+    "Name": "MD NAQUIBUR RAHMAN",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9693510696",
+    "Email ID": "1hk23cs077@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS078",
+    "Name": "MD SHADAB TALIB",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "8660291831",
+    "Email ID": "1hk23cs078@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS079",
+    "Name": "MD YUSUF ALI",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "8861307052",
+    "Email ID": "1hk23cs079@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS080",
+    "Name": "MOHAMMAD AFRIDI B",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "6369157744",
+    "Email ID": "1hk23cs080@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS081",
+    "Name": "MOHAMMAD ARIF SIDDIQ",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "7483924297",
+    "Email ID": "1hk23cs081@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS082",
+    "Name": "MOHAMMAD KAIF",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "6363351710",
+    "Email ID": "1hk23cs082@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS083",
+    "Name": "MOHAMMAD SAYIM MASOODI",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "7889421516",
+    "Email ID": "1hk23cs083@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS084",
+    "Name": "MOHAMMADZUBER S MULLA",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9036660807",
+    "Email ID": "1hk23cs084@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS085",
+    "Name": "MOHAMMED ADEEN KHURSHID",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9148950458",
+    "Email ID": "1hk23cs085@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS086",
+    "Name": "MOHAMMED ADNAN",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "7019455584",
+    "Email ID": "1hk23cs086@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS087",
+    "Name": "MOHAMMED ASLAM P M",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "6238475449",
+    "Email ID": "1hk23cs087@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS088",
+    "Name": "MOHAMMED AZIZ A KHAZI",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9620053460",
+    "Email ID": "1hk23cs088@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS090",
+    "Name": "MOHAMMED FUZAIL",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9019399310",
+    "Email ID": "1hk23cs090@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS091",
+    "Name": "MOHAMMED HASHIR",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "8296912890",
+    "Email ID": "1hk23cs091@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS093",
+    "Name": "MOHAMMED IRHAM SHARIFF",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9043056326",
+    "Email ID": "1hk23cs093@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS094",
+    "Name": "MOHAMMED MUEEZ GOUS",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "7892572828",
+    "Email ID": "1hk23cs094@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS095",
+    "Name": "MOHAMMED OMER FAROOQ",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9480944475",
+    "Email ID": "1hk23cs095@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS096",
+    "Name": "MOHAMMED SAAD",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "7899398166",
+    "Email ID": "1hk23cs096@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS097",
+    "Name": "MOHAMMED TAUHEED",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "7795480345",
+    "Email ID": "1hk23cs097@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS098",
+    "Name": "MOHAMMED ZAIN I",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "8618104708",
+    "Email ID": "1hk23cs098@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS099",
+    "Name": "MOHAMMAD ZUHAIB WANI",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "8618989426",
+    "Email ID": "1hk23cs099@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS100",
+    "Name": "MOHD JUNAID KHAN",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "7518960353",
+    "Email ID": "1hk23cs100@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS101",
+    "Name": "MOKSHAGNA TEJA K B",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "7259998757",
+    "Email ID": "1hk23cs101@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS102",
+    "Name": "MOOMIN MUKHTAR",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9796709771",
+    "Email ID": "1hk23cs102@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS103",
+    "Name": "MUHAMMED ASHMIL A",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "8590766819",
+    "Email ID": "1hk23cs103@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS104",
+    "Name": "MURALIMOHAN A M",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9964121088",
+    "Email ID": "1hk23cs104@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS105",
+    "Name": "MUSAIB HILAL",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "6005935395",
+    "Email ID": "1hk23cs105@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS106",
+    "Name": "NABEEL HASHMI",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9541783010",
+    "Email ID": "1hk23cs106@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS107",
+    "Name": "NAMRATHA U",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9019849546",
+    "Email ID": "1hk23cs107@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS108",
+    "Name": "NASRIN KHATOON",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9801450348",
+    "Email ID": "1hk23cs108@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS109",
+    "Name": "NAVYA J",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9008811617",
+    "Email ID": "1hk23cs109@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS110",
+    "Name": "NAYANA SHREE N",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9880350179",
+    "Email ID": "1hk23cs110@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS111",
+    "Name": "NITHIN D R",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9900657989",
+    "Email ID": "1hk23cs111@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS112",
+    "Name": "NITHYASHREE G K",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "8861577071",
+    "Email ID": "1hk23cs112@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS113",
+    "Name": "NOBLE V JOHN",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9961355181",
+    "Email ID": "1hk23cs113@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS114",
+    "Name": "PAVAN S",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "8073117254",
+    "Email ID": "1hk23cs114@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS115",
+    "Name": "PELLAKURU THARUN",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9866414434",
+    "Email ID": "1hk23cs115@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS116",
+    "Name": "POOJA SURVE",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "8722279692",
+    "Email ID": "1hk23cs116@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS117",
+    "Name": "POOJA V",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "6363955793",
+    "Email ID": "1hk23cs117@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS118",
+    "Name": "PRAJWAL KHENED",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "6362989289",
+    "Email ID": "1hk23cs118@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS120",
+    "Name": "PRAVEEN",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "8073805158",
+    "Email ID": "1hk23cs120@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS121",
+    "Name": "PRAVEEN C",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "8310540038",
+    "Email ID": "1hk23cs121@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS122",
+    "Name": "PRITIKA C U",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9113296113",
+    "Email ID": "1hk23cs122@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS123",
+    "Name": "PRIYA DHARSHAN S",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "6361316353",
+    "Email ID": "1hk23cs123@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS124",
+    "Name": "PRIYANSHU SINGH",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "8481056548",
+    "Email ID": "1hk23cs124@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS125",
+    "Name": "PUNITH REDDY K S",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9880523153",
+    "Email ID": "1hk23cs125@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS126",
+    "Name": "RAKSHITHA N",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "8296628056",
+    "Email ID": "1hk23cs126@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS127",
+    "Name": "RAM",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9606582839",
+    "Email ID": "1hk23cs127@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS128",
+    "Name": "RASHID ALI",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "7676643064",
+    "Email ID": "1hk23cs128@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS129",
+    "Name": "RAYYAN AHMED KHAN",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9146140935",
+    "Email ID": "1hk23cs129@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS130",
+    "Name": "RIYAZ AHMED RUHEENA TABASUM",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9742907525",
+    "Email ID": "1hk23cs130@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS131",
+    "Name": "RONALD RAISON",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9400538970",
+    "Email ID": "1hk23cs131@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  },
+  {
+    "USN": "1HK23CS132",
+    "Name": "S B NUSRATH FATHIMA",
+    "Department": "Computer Science and Engineering",
+    "Phone Number": "9342949547",
+    "Email ID": "1hk23cs132@hkbk.edu.in",
+    "Semester": "7th Semester",
+    "Year": "3rd Year",
+    "Section": "B Sec"
+  }
+]

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F4F6F9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Batch Import Classrooms &amp; Labs CSV"
+        android:textColor="#1E1E2C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Expected Columns: RoomNumber, BuildingBlock, Capacity, HasProjector, HasLab"
+        android:textColor="#666666"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnSelectRoomCsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Browse CSV File"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/tvRoomImportStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="No file selected"
+        android:textColor="#1E1E2C" />
+
+    <Button
+        android:id="@+id/btnImportClassrooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Import &amp; Save Infrastructure Records"
+        android:padding="12dp" />
+
+</LinearLayout>

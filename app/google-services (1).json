@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "20245645503",
+    "project_id": "campusschedulerai-pro",
+    "storage_bucket": "campusschedulerai-pro.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20245645503:android:b33d1c9690ad7c8b50de0a",
+        "android_client_info": {
+          "package_name": "com.campusscheduler.ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7FkBcuFWuwCk3CA_irLkG-TYXl5enNIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

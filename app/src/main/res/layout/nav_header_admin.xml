@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:orientation="vertical"
+    android:background="#1565C0"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingTop="28dp"
+    android:paddingBottom="18dp"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:id="@+id/ivNavAdminAvatar"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_gravity="start"
+        android:src="@android:drawable/ic_menu_myplaces"
+        android:contentDescription="Admin Profile"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        app:tint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvNavAdminName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="College Administrator"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/tvNavAdminCollege"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Tenant ID: COLLEGE_01"
+        android:textColor="#E3F2FD"
+        android:textSize="13sp"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/tvNavAdminRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="College Scheduler &amp; Controller"
+        android:textColor="#E3F2FD"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+</LinearLayout>

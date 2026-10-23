@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Professional College ERP Blue / Light-Blue Theme Palette -->
+    <color name="primary_blue">#1565C0</color>
+    <color name="primary_blue_dark">#0D47A1</color>
+    <color name="primary_blue_light">#1E88E5</color>
+    <color name="accent_blue">#2196F3</color>
+    <color name="light_blue_50">#E3F2FD</color>
+    <color name="light_blue_100">#BBDEFB</color>
+    <color name="light_blue_200">#90CAF9</color>
+    <color name="background_blue_light">#F4F8FC</color>
+
+    <!-- Legacy / Compatibility Mappings redirected to Professional Blue -->
+    <color name="purple_200">#90CAF9</color>
+    <color name="purple_500">#1E88E5</color>
+    <color name="purple_700">#1565C0</color>
+    <color name="purple_dark">#0D47A1</color>
+    <color name="purple_bg">#F4F8FC</color>
+    <color name="purple_header_bg">#1565C0</color>
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_100">#F4F6F9</color>
+    <color name="gray_200">#E0E0E0</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="card_stroke">#E0E0E0</color>
+</resources>

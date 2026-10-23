@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_admin_dashboard"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="Live Overview Dashboard" />
+
+        <item
+            android:id="@+id/nav_ai_timetable_gen"
+            android:icon="@android:drawable/ic_menu_month"
+            android:title="AI Timetable Generator" />
+
+        <item
+            android:id="@+id/nav_faculty_mgmt"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Faculty &amp; Workload" />
+
+        <item
+            android:id="@+id/nav_student_mgmt"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Student Management" />
+
+        <item
+            android:id="@+id/nav_subject_mgmt"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Subject Management" />
+
+        <item
+            android:id="@+id/nav_class_assignments"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Class Assignments &amp; Mapping" />
+
+        <item
+            android:id="@+id/nav_room_lab_mgmt"
+            android:icon="@android:drawable/ic_menu_crop"
+            android:title="Rooms &amp; Laboratories" />
+
+        <!-- DEPARTMENT MANAGEMENT -->
+        <item
+            android:id="@+id/nav_department_mgmt"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Department Management" />
+
+        <!-- SEMESTER MANAGEMENT -->
+        <item
+            android:id="@+id/nav_semester_mgmt"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Semester Management" />
+
+        <!-- SECTION MANAGEMENT -->
+        <item
+            android:id="@+id/nav_section_mgmt"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Section Management" />
+
+        <item
+            android:id="@+id/nav_excel_import"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="Batch Excel / CSV Import" />
+
+    </group>
+
+    <item android:title="Academic Operations">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_attendance_audit"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="Attendance Register &amp; Audit" />
+
+            <item
+                android:id="@+id/nav_teacher_substitution"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Teacher Substitution" />
+
+            <item
+                android:id="@+id/nav_profile_change_requests"
+                android:icon="@android:drawable/ic_menu_my_calendar"
+                android:title="Profile Change Requests" />
+
+            <item
+                android:id="@+id/nav_exam_ia_mgmt"
+                android:icon="@android:drawable/ic_menu_day"
+                android:title="Exam &amp; IA Scheduling" />
+
+            <item
+                android:id="@+id/nav_reports_analytics"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="Reports &amp; Analytics" />
+
+            <item
+                android:id="@+id/nav_announcements"
+                android:icon="@android:drawable/ic_menu_call"
+                android:title="Notifications &amp; Broadcasts" />
+
+        </menu>
+
+    </item>
+
+    <item android:title="System">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Campus Support" />
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@android:drawable/ic_menu_preferences"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Sign out" />
+
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F8FC">
+
+    <!-- Top Blue Header -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#1565C0"
+        android:paddingStart="8dp"
+        android:paddingEnd="12dp"
+        android:elevation="4dp">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Back"
+            android:src="@android:drawable/ic_menu_revert"
+            app:tint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tvHeaderTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/btnBack"
+            android:layout_marginStart="6dp"
+            android:text="Attendance &amp; Audit"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnToggleAudit"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:text="AUDIT LOGS"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:backgroundTint="#1E88E5"
+                android:layout_marginEnd="6dp" />
+
+            <Button
+                android:id="@+id/btnSaveAttendance"
+                android:layout_width="84dp"
+                android:layout_height="38dp"
+                android:text="SAVE"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:backgroundTint="#0D47A1" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- Session & Date Configuration Container -->
+    <LinearLayout
+        android:id="@+id/llSessionConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3F2FD"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class Session:"
+                android:textColor="#0D47A1"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spClassSession"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/btn_dropdown" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvAttendanceDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Date: 2026-10-15 (Click to change)"
+                android:textColor="#1565C0"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnMarkAllPresent"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:text="All Present"
+                android:textSize="11sp"
+                android:backgroundTint="#2E7D32"
+                android:textColor="#FFFFFF"
+                android:layout_marginEnd="4dp" />
+
+            <Button
+                android:id="@+id/btnMarkAllAbsent"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:text="All Absent"
+                android:textSize="11sp"
+                android:backgroundTint="#C62828"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnOpenDateRegister"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="#0D47A1"
+            android:text="📅 Date-Wise Attendance Register (Working Period)"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Audit Filter Bar (Visible in Audit Mode) -->
+    <LinearLayout
+        android:id="@+id/llAuditFilters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECEFF1"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spFilterSemester"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_dropdown" />
+
+        <Spinner
+            android:id="@+id/spFilterSection"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="4dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_dropdown" />
+
+        <Button
+            android:id="@+id/btnRefreshAudit"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginStart="4dp"
+            android:text="FILTER"
+            android:textSize="11sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#37474F" />
+
+    </LinearLayout>
+
+    <!-- Loading indicator -->
+    <ProgressBar
+        android:id="@+id/pbAttendanceLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:visibility="gone" />
+
+    <!-- Empty State -->
+    <TextView
+        android:id="@+id/tvEmptyAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:gravity="center"
+        android:text="No students found for the selected session."
+        android:textColor="#757575"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <!-- Student Attendance List (Mark Attendance Mode) -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAttendanceStudents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:clipToPadding="false" />
+
+    <!-- Audit Logs List (Audit Mode) -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvAttendanceLogs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:clipToPadding="false"
+        android:visibility="gone" />
+
+</LinearLayout>

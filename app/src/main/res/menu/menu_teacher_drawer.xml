@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="PROFILE">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_teacher_profile"
+                    android:icon="@android:drawable/ic_menu_myplaces"
+                    android:title="My Profile" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="ACADEMICS">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_teacher_dashboard"
+                    android:icon="@android:drawable/ic_menu_compass"
+                    android:title="Dashboard" />
+                <item
+                    android:id="@+id/nav_teacher_subjects"
+                    android:icon="@android:drawable/ic_menu_sort_by_size"
+                    android:title="My Subjects" />
+                <item
+                    android:id="@+id/nav_teacher_students"
+                    android:icon="@android:drawable/ic_menu_myplaces"
+                    android:title="My Students" />
+                <item
+                    android:id="@+id/nav_teacher_timetable"
+                    android:icon="@android:drawable/ic_menu_month"
+                    android:title="My Timetable" />
+                <item
+                    android:id="@+id/nav_teacher_attendance"
+                    android:icon="@android:drawable/ic_menu_edit"
+                    android:title="Attendance" />
+                <item
+                    android:id="@+id/nav_teacher_assignments"
+                    android:icon="@android:drawable/ic_menu_set_as"
+                    android:title="Assignments" />
+                <item
+                    android:id="@+id/nav_teacher_resources"
+                    android:icon="@android:drawable/ic_menu_save"
+                    android:title="Resources" />
+                <item
+                    android:id="@+id/nav_teacher_quizzes"
+                    android:icon="@android:drawable/ic_menu_help"
+                    android:title="Quizzes / Assessments" />
+                <item
+                    android:id="@+id/nav_teacher_gradebook"
+                    android:icon="@android:drawable/ic_menu_view"
+                    android:title="Gradebook" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="SCHEDULING">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_teacher_schedule"
+                    android:icon="@android:drawable/ic_menu_today"
+                    android:title="My Schedule" />
+                <item
+                    android:id="@+id/nav_teacher_workload"
+                    android:icon="@android:drawable/ic_menu_agenda"
+                    android:title="Faculty Workload" />
+                <item
+                    android:id="@+id/nav_teacher_availability"
+                    android:icon="@android:drawable/ic_menu_recent_history"
+                    android:title="Faculty Availability" />
+                <item
+                    android:id="@+id/nav_teacher_leave"
+                    android:icon="@android:drawable/ic_menu_day"
+                    android:title="Leave Requests" />
+                <item
+                    android:id="@+id/nav_teacher_substitute"
+                    android:icon="@android:drawable/ic_menu_share"
+                    android:title="Substitute Requests" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="ACADEMIC CALENDAR">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_teacher_calendar"
+                    android:icon="@android:drawable/ic_menu_my_calendar"
+                    android:title="Calendar" />
+                <item
+                    android:id="@+id/nav_teacher_events"
+                    android:icon="@android:drawable/ic_dialog_info"
+                    android:title="Events" />
+                <item
+                    android:id="@+id/nav_teacher_change_requests"
+                    android:icon="@android:drawable/ic_menu_edit"
+                    android:title="Change Requests" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="COMMUNICATION">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_teacher_notifications"
+                    android:icon="@android:drawable/ic_popup_reminder"
+                    android:title="Notifications" />
+                <item
+                    android:id="@+id/nav_teacher_messages"
+                    android:icon="@android:drawable/ic_menu_send"
+                    android:title="Messages" />
+                <item
+                    android:id="@+id/nav_teacher_dept_announcements"
+                    android:icon="@android:drawable/ic_dialog_info"
+                    android:title="Department Announcements" />
+                <item
+                    android:id="@+id/nav_teacher_college_announcements"
+                    android:icon="@android:drawable/ic_dialog_info"
+                    android:title="College Announcements" />
+                <item
+                    android:id="@+id/nav_teacher_chat"
+                    android:icon="@android:drawable/ic_menu_help"
+                    android:title="AI Academic Assistant" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="INFORMATION">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_teacher_department"
+                    android:icon="@android:drawable/ic_menu_compass"
+                    android:title="Department" />
+                <item
+                    android:id="@+id/nav_teacher_college"
+                    android:icon="@android:drawable/ic_menu_compass"
+                    android:title="College" />
+                <item
+                    android:id="@+id/nav_teacher_help"
+                    android:icon="@android:drawable/ic_menu_help"
+                    android:title="Help Center" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="SYSTEM">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@android:drawable/ic_menu_preferences"
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@android:drawable/ic_lock_power_off"
+                    android:title="Sign Out" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

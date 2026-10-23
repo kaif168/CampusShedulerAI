@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F4F8FC"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- OFFICIAL HKBK HEADER CARD -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Official HKBK Emblem Logo -->
+                <ImageView
+                    android:id="@+id/dialogHkbkLogo"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:contentDescription="HKBK College of Engineering Emblem"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_hkbk_logo" />
+
+                <!-- HKBK College Name -->
+                <TextView
+                    android:id="@+id/dialogHkbkTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="HKBK COLLEGE OF ENGINEERING"
+                    android:textColor="#0D47A1"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <!-- Affiliation -->
+                <TextView
+                    android:id="@+id/dialogHkbkSubtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Approved by AICTE, New Delhi • Affiliated to VTU, Belagavi • Bengaluru - 560045"
+                    android:textColor="#546E7A"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="#CFD8DC" />
+
+                <!-- Timetable Title -->
+                <TextView
+                    android:id="@+id/dialogTimetableTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="AI Timetable Preview"
+                    android:textColor="#263238"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <!-- Cohort Info -->
+                <TextView
+                    android:id="@+id/dialogCohortInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:text="Department: CSE | 7th Sem Sec A"
+                    android:textColor="#1565C0"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <!-- Badge -->
+                <TextView
+                    android:id="@+id/dialogTimetableBadge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:background="#E3F2FD"
+                    android:paddingStart="12dp"
+                    android:paddingTop="3dp"
+                    android:paddingEnd="12dp"
+                    android:paddingBottom="3dp"
+                    android:text="OFFICIAL CLASS TIMETABLE • PUBLISHED"
+                    android:textColor="#0D47A1"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+                <!-- Metrics: Fitness Score & Conflicts -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/dialogTvFitness"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fitness: 95.0%"
+                        android:textColor="#1565C0"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:text="•"
+                        android:textColor="#90A4AE" />
+
+                    <TextView
+                        android:id="@+id/dialogTvConflicts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Conflicts: 0"
+                        android:textColor="#2E7D32"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:text="•"
+                        android:textColor="#90A4AE" />
+
+                    <TextView
+                        android:id="@+id/dialogTvTotalSessions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Slots: 24"
+                        android:textColor="#37474F"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- DAY-WISE SESSIONS CONTAINER -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="6dp"
+            android:text="Class Schedule &amp; Allocations"
+            android:textColor="#0D47A1"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/llDialogSlotsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <!-- ACTION BUTTONS -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnPrintTimetable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="#2E7D32"
+                android:text="🖨️ Print / PDF"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnDeleteTimetable"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textColor="#C62828" />
+
+            <Button
+                android:id="@+id/btnCloseDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#1565C0"
+                android:text="Close"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

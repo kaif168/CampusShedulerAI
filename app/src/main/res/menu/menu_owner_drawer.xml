@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_owner_dashboard"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="Platform Overview" />
+        <item
+            android:id="@+id/nav_college_mgmt"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Tenant / College Management" />
+        <item
+            android:id="@+id/nav_platform_updates"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Platform Updates &amp; Logs" />
+        <item
+            android:id="@+id/nav_owner_analytics"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Cross-Tenant Analytics &amp; Security" />
+    </group>
+
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Owner Support" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@android:drawable/ic_menu_preferences"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Sign out" />
+        </menu>
+    </item>
+
+</menu>
